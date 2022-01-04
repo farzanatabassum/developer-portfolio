@@ -39,6 +39,8 @@ h1{
 }
 .exp-area{
     background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 .exp-item{
@@ -48,4 +50,22 @@ h1{
     padding: 10px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+}
+#webdevexp{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#webdevexp{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#fulldevexp{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
